@@ -1,0 +1,43 @@
+body{
+    background-color: #29347B;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Shadows Into Light';
+    color: white;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1.4em;
+    color: white;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+p{
+    padding-top: 0;
+    margin-top: 0;
+}
+.child{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: auto;
+}

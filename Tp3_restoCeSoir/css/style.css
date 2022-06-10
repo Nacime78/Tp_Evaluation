@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.navbar, .nomlogo{
+    font-family: 'Caveat Brush';
+}
+
+body{
+    margin: 0 2px 0 0;
+    padding: 0;
+}
+
+/* -------------------------------------------------- HEADER ------------------------------------------------------------ */
+
+header{
+    height: 100vh;
+    background-image: url('/img/planches.jpg');
+    background-repeat: repeat-x;
+}
+
+li{
+    display: inline; /* affiche le menu sur la même ligne */
+}
+
+.navbar{ /* logo + menu */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 0 20px 0;
+}
+
+.menu{ /* menu droite */
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a, .logo{
+    text-decoration: none;
+}
+
+nav ul li a{
+    font-size: 2rem;
+    color: black;
+}
+
+.logo{
+    font-size: 3rem;
+    color: black;
+}
+
+.logoHr hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.cerf{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    
+}
+
+.cerf img {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.triangle{
+    margin-right: auto;
+    margin-left: auto;
+    width: 220px;
+    height: 220px;
+    background-color: red;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.chevronheader i{
+    font-size: 100px;
+    font-weight: 2px;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------ MAIN -------------------------------------- */
+.mom{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.mom .childtext{
+    padding-top: 150px;
+    margin: 100px;
+    text-align: center;
+}
+
+.mom .childimg{
+    margin: 0;
+    padding: 0;
+}
+
+#asperge{
+    width: 1200px;
+    height: 842px;
+}
+
+.mom h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.mom hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.mom2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#savon{
+    width: 1200px;
+    height: 800px;
+}
+
+.mom2 .childtext{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 75px 0;
+}
+
+.mom2 .childtext img{
+    width: 250px;
+    height: 200px;
+    padding-top: 250px;
+}
+
+.mom2 hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.FreshFare{
+    width: 100%;
+    text-align: center;
+}
+
+.mom2 h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.mom2 hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.mom2 .childtext p{
+    margin: 0;
+    padding: 0;
+}
+
+.mom3{
+    display: flex;
+}
+
+.mom h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.mom hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.mom3{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#savon{
+    width: 1200px;
+    height: 800px;
+}
+
+.mom3 .childtext{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 75px 0;
+}
+
+.mom3 .childtext img{
+    width: 250px;
+    height: 200px;
+    padding-top: 150px;
+}
+
+.mom3 hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.Local{
+    width: 100%;
+    text-align: center;
+}
+
+.mom3 h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.mom3 hr{
+    width: 40px;
+    border: 8px solid rgb(192, 45, 69);
+}
+
+.mom3 .childtext p{
+    margin: 0;
+    padding: 0;
+}
+
+#oeuf{
+    width: 100%;
+}
+
+/* --------------------------------------------- FOOTER ---------------------------------------------------- */
+
+footer{
+    background-image: url('/img/motif.jpg');
+    height: 400px;
+}
