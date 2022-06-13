@@ -13,7 +13,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: url('/img/planches.jpg');
+    background-image: url('../img/planches.jpg');
     background-repeat: repeat-x;
 }
 
@@ -90,7 +90,7 @@ nav ul li a{
 
 .chevronheader i{
     font-size: 100px;
-    font-weight: 2px;
+    font-weight: lighter;
     position: absolute;
     top: 96%;
     left: 50%;
@@ -249,6 +249,6 @@ nav ul li a{
 /* --------------------------------------------- FOOTER ---------------------------------------------------- */
 
 footer{
-    background-image: url('/img/motif.jpg');
+    background-image: url('../img/motif.jpg');
     height: 400px;
 }
