@@ -1,0 +1,372 @@
+/* Tous les éléments de la page auront la même police */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pour initialiser toutes les balises sur tous les navigateurs */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, input, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+body{
+    background: url('../img/fond.png') repeat;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* ----------------------------------------- DEBUT HEADER ----------------------------------------- */
+
+/* ------------------------------------------- DEBUT TOP------------------------------------------- */
+
+.top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.boutique{
+    width: 300px;
+    height: 80px;
+}
+
+.boutique h1{
+    font-size: 3rem;
+}
+
+.boutique p{
+    color: rgb(224, 36, 168);
+}
+
+.aide{
+    width: 300px;
+    height: 80px;
+}
+
+.aide h2{
+    font-size: 2rem;
+    color: rgb(103, 220, 255);
+}
+
+.aide #contactAide{
+    background: url('../img/aide.png') no-repeat;
+    display: inline-block;
+    text-align: center;
+    width: 200px
+}
+
+.aide #contactAide p{
+    padding: 0 0 1px 10px;
+    text-align: center;
+}
+
+.aide p{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: rgb(128, 118, 118);
+    padding-left: 25px;
+}
+
+.comptePanier{
+    color: white;
+    width: 300px;
+    height: 80px;
+}
+
+.comptePanier p{
+    background-color: rgb(103, 220, 255);
+}
+
+.panier{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(103, 220, 255);
+    margin-top: 2px;
+    height: 60px
+}
+
+/* ------------------------------------------- FIN TOP ------------------------------------------- */
+
+/* ------------------------------------------ DEBUT NAV ------------------------------------------ */
+
+.menu{
+    background-color: rgb(103, 220, 255);
+    padding: 10px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    width: 170px;
+    height: 40px;
+}
+
+.menu li{
+    padding: 0 5px;
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li:first-of-type{
+    margin-left: 40px;
+}
+
+/* -------------------------------------------- FIN NAV ------------------------------------------- */
+
+/* ------------------------------------------ FIN HEADER ------------------------------------------ */
+
+/* ------------------------------------------ DEBUT MAIN ------------------------------------------ */
+
+/* ----------------------------------------- DEBUT MIDDLE ----------------------------------------- */
+.middle{
+    margin-top: 20px;
+    width: 1000px;
+    height: 115px;
+    display: flex;
+    align-items: baseline;
+}
+
+.middle h3{
+    color: rgb(103, 220, 255);
+    font-size: 1.2rem;
+}
+
+.middle p{
+    font-size: 0.9rem;
+}
+
+.paiement, .paiement h3, p{
+    text-align: start;
+}
+
+.paiement{
+    width: 20%;
+    height: 115px;
+    padding: 0 4% 0 3%;
+    border-right: 1px groove rgba(131, 131, 131, 0.2);
+}
+
+.paiement p{
+    padding-top: 10px;
+}
+
+.paiement img{
+    padding-top: 10px;
+}
+
+.information{
+    width: 50%;
+    height: 115px;
+    padding: 0 4% 0 2%;
+    border-right: 1px groove rgba(131, 131, 131, 0.2);
+}
+
+.information p{
+    padding-top: 10px;
+}
+
+.service{
+    width: 25%;
+    height: 115px;
+    padding: 0 3% 0 1%;
+}
+
+.service #livraison{
+    display: flex;
+    align-items: center;
+}
+
+#livraison p{
+    padding-left: 10px;
+}
+
+.service #produit{
+    display: flex;
+    align-items: center;
+}
+
+#produit p{
+    padding-left: 10px;
+}
+
+/* ------------------------------------------ FIN MIDDLE ------------------------------------------ */
+
+/* --------------------------------------- DEBUT MIDDLE BOT --------------------------------------- */
+
+.middleBot{
+    margin-top: 20px;
+    display: flex;
+}
+
+.middleBot article{
+    width: 325px;
+    height: 170px;
+    margin-right: 3px;
+}
+
+.middleBot article p{
+    font-size: 0.9rem;
+}
+
+.middleBot img{
+    width: 80px;
+    height: 80px;
+}
+
+.bonPlan{
+    border: 1px solid rgba(161, 155, 155, 0.3);
+    box-shadow: 2px 2px 10px rgb(160, 154, 154);
+}
+
+#bonPlan h4{
+    padding-top: 10px;
+}
+
+.bonPlan #bonPlan{
+    height: 40px;
+    background-color: grey;
+}
+
+.contenuBonPlan{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.Coup2coeur{
+    border: 1px solid rgba(161, 155, 155, 0.3);
+    box-shadow: 2px 2px 10px rgb(160, 154, 154);
+}
+
+#Coup2coeur h4{
+    padding-top: 10px;
+}
+
+.Coup2coeur #Coup2coeur{
+    height: 40px;
+    background-color: grey;
+}
+.Plaisir{
+    border: 1px solid rgba(161, 155, 155, 0.3);
+    box-shadow: 2px 2px 15px rgb(160, 154, 154);
+}
+
+#Plaisir h4{
+    padding-top: 10px;
+}
+
+.Plaisir #Plaisir{
+    height: 40px;
+    background-color: grey;
+}
+
+.contenuCoup2coeur{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.middleBot article img{
+    width: 20%;
+}
+
+.middleBot article p{
+    width: 80%;
+}
+
+.contenuPlaisir{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.contenuPlaisir img{
+    width: 20%;
+}
+
+.contenuPlaisir p{
+    width: 80%;
+}
+
+.contenuPlaisir a{
+    width: 100%;
+    text-align: end;
+}
+
+.contenuBonPlan a{
+    width: 100%;
+    text-align: end;
+}
+
+.contenuCoup2coeur a{
+    width: 100%;
+    text-align: end;
+}
+
+.contenuBonPlan img{
+    height: 100px;
+}
+
+.contenuCoup2coeur img{
+    width: 90px;
+}
+
+/* --------------------------------------- FIN MIDDLE BOT --------------------------------------- */
+
+/* ---------------------------------------- DEBUT FOOTER ---------------------------------------- */
+
+.footer{
+    background-color: rgb(103, 220, 255);
+    padding: 10px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.footer a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer ul li{
+    margin: 0 15px;
+    list-style: none;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul li:first-of-type{
+    margin-left: 85px;
+}
+
+.footer ul li:last-of-type{
+    margin-right: 85px;
+}
+
+.footer ul li{
+    height: 40px;
+}
+
+/* ---------------------------------------- FIN FOOTER ---------------------------------------- */
+
+/* ------------------------------------------- FIN -------------------------------------------- */
+
