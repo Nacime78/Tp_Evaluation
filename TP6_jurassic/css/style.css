@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,675;0,700;0,715;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* RESET BALISES HTML */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, input, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------------- DEBUT HEADER --------------- */
+
+header{
+    background-image: url("../img/dinosaure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.en{
+    color: rgba(0, 0, 0, 0.35);
+}
+
+header .header{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header .header img:first-child{
+    padding-top: 83px;
+    width: 38%;
+    height: 90%;
+}
+
+header .header img:last-child{
+    position: absolute;
+    top: 696px;
+    left: 1560px;
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+nav .menu li{
+    height: 50px;
+    list-style-type: none;
+    line-height: 50px;
+    align-items: center;
+}
+
+nav .menu li:first-child{
+    margin-left: 10%;
+}
+
+nav .menu li:last-child{
+    margin-right: 10%;
+    padding-left: 40px;
+}
+
+nav .menu li button{
+    background: #1C5F81;
+    width: 190px;
+    height: 40px;
+    color: white;
+    font-size: 1em;
+    border: none;
+}
+
+nav .menu li button:hover{
+    background: white;
+    color: #1C5F81;
+    transition: 0.5s;
+}
+
+nav .menu li:last-child a{
+    padding-right: 20px;
+}
+
+nav .menu li:nth-child(4){
+    width: 50px;
+}
+
+nav .menu li:nth-child(6){
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+nav .menu li:nth-child(6)::after{
+    content: '';
+    position: absolute;
+    border: 1px solid white;
+    top: 15px;
+    right: 555px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav .menu li:last-child i{
+    transform: rotate(-45deg);
+    padding-right: 8px;
+}
+
+nav .menu li:active{
+    border: 2px #8DAE4F;
+}
+
+.menu li{
+    width: 250px;
+    text-align: center;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.menu li:hover:not(li:last-child){
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    transition: 0.5s;
+}
+
+nav .menu li:nth-child(7){
+    width: 30px;
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+nav .menu li:nth-child(7) a{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* ----------- FIN HEADER ------------- */
+
+/* ---------- DEBUT MAIN -------------- */
+
+main{
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+section article{
+    margin: 20px 0;
+}
+
+section figure figcaption{
+    font-weight: bold;
+    font-size: 2em;
+    display: none;
+}
+
+section figure:hover figcaption{
+    position: relative;
+    top: 20px;
+    display: block;
+}
+
+section figure img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+section h1{
+    line-height: 1em;
+    font-size: 3em;
+    margin: 35px auto;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+section article p{
+    width: 750px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.7em;
+}
+
+span{
+    font-weight: bold;
+}
+
+section .voyage{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section p{
+    line-height: 1.2em;
+}
+
+section .place{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.courir{
+    font-weight: 800;
+}
+
+.th{
+    margin-right: 50px;
+}
+
+.reserver{
+    margin-top: 35px;
+    background: #1C5F81;
+    width: 190px;
+    height: 40px;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+.reserver:hover{
+    background: white;
+    color: #1C5F81;
+    transition: 0.5s;
+}
+
+.bottomMain{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    right: 200px;
+}
+
+.bottomMain .tarif{
+    width: 500px;
+}
+
+.bottomMain hr{
+    width: 50%;
+}
+
+.tarif h2{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 30px;
+    word-spacing: 10px;
+}
+
+.tarif ul{
+    text-align: left;
+    line-height: 1.4em;
+}
+
+.tarif ul li{
+    list-style-type: none;
+}
+
+.tarif p{
+    margin: 20px 0;
+    text-align: left;
+}
+
+.tarif .achat{
+    text-align: center;
+    background: #1C5F81;
+    width: 190px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+.achat:hover{
+    background: white;
+    color: #1C5F81;
+    transition: 0.5s;
+}
+
+.tarif{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+hr{
+    margin: 75px 0;
+    position: relative;
+    right: 2px;
+}
+
+.horaire{
+    margin-top: 20px;
+    width: 500px;
+    text-align: left;
+}
+
+.horaire h2{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 30px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.venir{
+    float: right;
+    width: 500px;
+    text-align: left;
+}
+
+.venir h2{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.venir img{
+    position: relative;
+    top: 5px;
+    width: 50px;
+    height: 23px;
+}
+
+.venir iframe{
+    margin-top: 20px;
+}
+
+.preFooter{
+    margin-top: 250px;
+    margin-bottom: 50px;
+    position: relative;
+    width: 1000px;
+    right: 150px;
+}
+
+.preFooter h2{
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+.preFooter ul{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.preFooter ul li{
+    list-style-type: none;
+}
+
+.preFooter ul li img{
+    width: 50%;
+}
+
+/* ------------------- FIN MAIN -------------------- */
+
+/* ------------------ DEBUT FOOTER ----------------- */
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+}
+
+.footer{
+    position: relative;
+    top: 150px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    position: relative;
+    float: right;
+    bottom: 50px;
+}
+
+footer ul li{
+    line-height: 1.7em;
+    list-style-type: none;
+    color: white;
+}
+
+.menu a:active{
+    border: 1px solid #8DAE4F;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+/* -------------- FIN FOOTER -------------- */
